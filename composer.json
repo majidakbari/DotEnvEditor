@@ -1,0 +1,25 @@
+{
+    "name": "makbari/dot-env-editor",
+    "description": "An editor for changing dotEnv file content",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Majid Akbari",
+            "email": "majidakbariiii@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "mhndev/config": "1.*"
+    },
+    "suggest": {
+        "jenssegers/blade": "1.1.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "makbari\\DotEnvEditor\\": "src"
+        }
+    }
+}
