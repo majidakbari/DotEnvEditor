@@ -8,7 +8,7 @@
 ##### Example
 
 ```php
-$handler = new \makbari\DotEnvEditor\handler\Handler("Path_To_Your_Config")
+$handler = new \makbari\DotEnvEditor\handler\Handler("Path_To_Your_Config");
 
 $handler->add(['key' => 'value']);
 
