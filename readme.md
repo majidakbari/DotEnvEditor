@@ -2,10 +2,17 @@
 
 ## Simple editor for edit .env file content using php
 
-##### All you need to do is to create an object of Handler class and pass it your config path.
-##### Now you can use its methods
+### Installation with Composer
+```bash
+curl -s http://getcomposer.org/installer | php
+php composer.phar require makbari/dot-env-editor
 
-##### Example
+```
+
+### Usage
+All you need to do is to create an object of Handler class and pass it your config path.
+
+### Example
 
 ```php
 $handler = new \makbari\DotEnvEditor\handler\Handler("Path_To_Your_Config");
@@ -13,7 +20,7 @@ $handler = new \makbari\DotEnvEditor\handler\Handler("Path_To_Your_Config");
 $handler->add(['key' => 'value']);
 
 ```
-##### Available methods
+### Available methods
 
 `overview()` - To list all .env content  
 `add()` - Add new key => value to .env file  
